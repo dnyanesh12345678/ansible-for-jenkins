@@ -11,7 +11,7 @@
    - name: copy html file
      copy:
       src: html
-      dest: /home/ubuntu
+      dest: /var/www/html
   handlers:
    - name: restart apache2
      service:
